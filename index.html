@@ -4,18 +4,40 @@
 <head>
     <title>Fall Weather Forecast</title>
     <!-- Link to external stylesheet -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <!-- Embedded styles will go here -->
+     <style>
+        body {
+            font-family: "Metal Mania", system-ui;
+            font-size: 2em;
+            background-color: #d28046;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+     </style>
 
 </head>
 
 <body>
     <h1>Fall Weather Forecast</h1>
-    <div class="forecast">
+    <div class="forecast" style="font-family: 'Courier New', Courier, monospace;">
         <p class="day">Monday: Sunny, 60°F</p>
         <p class="day">Tuesday: Cloudy, 55°F</p>
         <p class="day">Wednesday: Rainy, 50°F</p>
+        <p class="day">Thursday: Partly Cloudy, 65°F</p>
+        <p class="day">Friday: Sunny, 70°F</p>
+        <p class="day">Saturday: Sunny, 75°F</p>
+        <p class="day">Sunday: Sunny, 80°F</p>
     </div>
 
     <!-- Example of where inline styles can be added -->
